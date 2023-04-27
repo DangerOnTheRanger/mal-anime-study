@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lightnovel-study"
+version = "0.1.0"
+description = ""
+authors = ["Kermit Alexander II <kotuxguy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.0"
+requests = "^2.28.2"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
